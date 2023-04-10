@@ -9,6 +9,8 @@ Utilizamos um cache para melhorar o tempo de requisição ao autenticar token.
 
 Após os usuário se autenticar o canal de aplicações faz o direcionamento para o pix de parcelamento, no pix de parcelamento é feita uma verificação com o parceiro para ver quantas vezes o parcelamento é liberado para o mesmo, um cache também foi implementado para melhorar o tempo da requisição externa.
 
+Algumas tabelas podem ser implementadas termos um melhor controle da transação, sistemas de observability também podem ser uma solução para monitoramento dos serviços.
+
 ![pixparcelado](https://user-images.githubusercontent.com/36285351/230963731-efd147f8-2a51-48d4-ab0e-527ccb7f141a.png)
 
 ## Database Design
